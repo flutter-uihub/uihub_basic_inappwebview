@@ -1,0 +1,29 @@
+name: uihub_basic_inappwebview
+description: "free flutter ui is all you need"
+#publish_to: 'none'
+#repository: https://github.com/flutter-uihub/uihub_basic_inappwebview
+
+version: 1.0.0
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_inappwebview: #@add
+  styled_widget: #@add
+  after_layout: #@add
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+
+flutter:
+  assets:
+    - assets/uihub/uihub_basic_inappwebview/
+  uses-material-design: true
+
+topics:
+  - uihub
